@@ -1,20 +1,68 @@
-
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
-.footerPage{
-    height: 100px;
+body{
+    background-color: #F0F0F0;
 }
 
-.card-custom{ 
-    width: 100%;
-    margin-bottom: 10px;
+.box{
+    font-size: 24px;
+    color:#767676 ;
+    width: 600px;
+    background-color: #FFFFFF;
+}
+
+#title{
+    font-size: 84px;
+    color:#a8a0a0 ;
+    padding-top: 10px;
+    font-weight: lighter;
+    margin-bottom: 0px;
+}
+
+.inputText{
+    margin-left: 50px;
+    border:none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 500px;
+    outline: 0;
+}
+
+
+.footer{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 16px;
+    color:#767676 ;
+    width: 600px;
+}
+
+.footer2{
+    background-color: #FFFFFF;
+    width: 580px;
+    height: 7px;
+}
+
+.footer3{
+    background-color: #FFFFFF;
+    width: 560px;
+    height: 7px;
+}
+
+#tasks li{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#tasks li span{
+    visibility: hidden;
+    cursor: pointer;
+    line-height:inherit;
+}
+ 
+#tasks li:hover span{
+    visibility: visible;
 }
